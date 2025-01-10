@@ -1,0 +1,36 @@
+integer inOne
+integer inTwo
+integer inThr
+integer avg
+integer prod
+float flOne
+float flTwo
+float flThr
+float flAvg
+float flProd
+
+//Int
+inOne = Get next input
+inTwo = Get next input
+inThr = Get next input
+
+//Float
+flOne  = inOne * 1.0
+flTwo = inTwo * 1.0
+flThr = inThr * 1.0
+
+//Int Avg/Prod
+avg = (inOne + inTwo + inThr) / 3
+prod = inOne * inTwo * inThr
+
+//Float Avg/Prod
+flAvg = (flOne + flTwo + flThr) / 3
+flProd = flOne * flTwo * flThr 
+
+Put avg to output
+Put " " to output
+Put prod to output
+Put "\n" to output
+Put flAvg to output with 5 decimal places
+Put " " to output
+Put flProd to output with 5 decimal places
