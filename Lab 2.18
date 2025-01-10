@@ -1,0 +1,19 @@
+float caffeineAmt
+float halfSixAmt
+float halfTweAmt
+float halfEighAmt
+
+caffeineAmt = Get next input
+halfSixAmt = caffeineAmt / 2
+halfTweAmt = halfSixAmt / 2
+halfEighAmt = (halfTweAmt / 2)
+
+Put "After 6 hours: " to output
+Put halfSixAmt to output
+Put " mg\n" to output
+Put "After 12 hours: " to output
+Put halfTweAmt to output
+Put " mg\n" to output
+Put "After 18 hours: " to output
+Put halfEighAmt to output
+Put " mg" to output
