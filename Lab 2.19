@@ -1,0 +1,22 @@
+integer userNum
+integer x
+integer runOne
+integer runTwo
+integer runThree
+integer runFour
+
+userNum = Get next input
+x = Get next input
+
+runOne = userNum / x
+runTwo = runOne / x
+runThree = runTwo / x
+runFour = runThree / x
+
+Put runOne to output
+Put " " to output
+Put runTwo to output
+Put " " to output
+Put runThree to output
+Put " " to output
+Put runFour to output
