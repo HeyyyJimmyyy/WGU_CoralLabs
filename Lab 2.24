@@ -1,0 +1,12 @@
+integer phoneNum
+integer prefix
+integer lineNum
+
+phoneNum = Get next input
+
+prefix = phoneNum / 10000 
+lineNum = phoneNum % 10000
+
+Put prefix to output
+Put "-" to output
+Put lineNum to output
