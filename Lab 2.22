@@ -1,0 +1,21 @@
+float numOne
+float numTwo
+float numThree
+
+numOne = Get next input
+numTwo = Get next input
+numThree = Get next input
+
+//X to the power of y works
+Put RaiseToPower(numOne, numTwo) to output with 5 decimal places
+Put " " to output
+
+//2nd Raise works
+Put RaiseToPower(numOne, RaiseToPower(numTwo, numThree)) to output with 5 decimal places
+Put " " to output
+
+//Absolute val works
+Put AbsoluteValue(numOne) to output with 5 decimal places
+Put " " to output
+
+Put SquareRoot(RaiseToPower((numOne * numTwo), numThree)) to output with 5 decimal places
