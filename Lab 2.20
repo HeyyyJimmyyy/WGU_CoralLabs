@@ -1,0 +1,29 @@
+//Inputs
+float mpg
+float dollGal
+float tripCost
+
+//Milage Options
+integer tenMiles
+integer fiftyMiles
+integer fourHunMiles
+//output 
+float gasCost
+
+mpg = Get next input
+dollGal = Get next input
+
+tenMiles = 10
+fiftyMiles = 50
+fourHunMiles = 400
+
+gasCost = dollGal / mpg * tenMiles
+Put gasCost to output with 2 decimal places
+Put " " to output
+
+gasCost = dollGal / mpg * fiftyMiles
+Put gasCost to output with 2 decimal places
+Put " " to output
+
+gasCost = dollGal / mpg * fourHunMiles
+Put gasCost to output with 2 decimal places
