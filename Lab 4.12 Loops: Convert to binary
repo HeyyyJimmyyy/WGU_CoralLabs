@@ -1,0 +1,7 @@
+integer requestedNum
+
+requestedNum = Get next input
+
+while requestedNum > 0
+   Put requestedNum % 2 to output
+   requestedNum = requestedNum / 2
