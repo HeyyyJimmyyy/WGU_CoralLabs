@@ -1,0 +1,39 @@
+integer red
+integer green
+integer blue
+integer smallest
+integer blueGrey
+integer redGrey
+integer greenGrey
+
+//Inputs
+red = Get next input
+green = Get next input
+blue = Get next input
+
+//expression to find the smallest
+if (red != green) or (red != blue) or (green != blue)
+   if (red < green) and (red < blue)
+      smallest = red
+
+   if (green < red) and (green < blue)
+      smallest = green
+
+   if (blue < red) and (blue < green)
+      smallest = blue 
+  
+//Remove the Grey
+   redGrey = red - smallest
+   blueGrey = blue - smallest
+   greenGrey = green - smallest
+
+else
+   redGrey = 0
+   greenGrey = 0
+   blueGrey = 0
+   
+Put redGrey to output
+Put " " to output
+Put greenGrey to output
+Put " " to output
+Put blueGrey to output
