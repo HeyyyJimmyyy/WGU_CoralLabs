@@ -1,3 +1,8 @@
+//Write a program with two inputs, current price and last month's price (both integers). 
+//Then, output a summary listing the price, the change since last month, and the estimated monthly mortgage computed as (currentPrice * 0.045) / 12.
+//Output the estimated monthly mortgage (estMortgage) with two digits after the decimal point, which can be achieved as follows:
+//Put estMortgage to output with 2 decimal places
+
 integer currPrice
 integer lastMonthPrice
 float estMortgage
