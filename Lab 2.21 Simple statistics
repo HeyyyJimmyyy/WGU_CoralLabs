@@ -1,3 +1,8 @@
+//Given 3 integers, output their average and their product, using integer arithmetic.
+//Using the same 3 integers, output the average and product, using floating-point arithmetic.
+//Output all floating-point numbers with five digits after the decimal point, which can be achieved as follows:
+//Put x to output with 5 decimal places
+
 integer inOne
 integer inTwo
 integer inThr
