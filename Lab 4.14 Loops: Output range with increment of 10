@@ -1,0 +1,16 @@
+// 2 inputs
+integer inputOne
+integer inputTwo
+integer increm
+
+inputOne = Get next input
+inputTwo = Get next input
+
+if inputTwo < inputOne
+   Put "Second integer can't be less than the first." to output
+
+while inputOne <= inputTwo
+   Put inputOne  to output
+   Put " " to output
+   inputOne = inputOne + 10
+
