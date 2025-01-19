@@ -1,0 +1,22 @@
+// Declare Vars
+integer userInt
+integer sumInts
+integer numInts
+integer maxInt
+
+// Initalizing Vars
+sumInts = 0
+numInts = 0
+maxInt = -1
+
+userInt = Get next input
+
+while userInt >= 0
+   sumInts = sumInts + userInt
+   numInts = numInts + 1
+   if userInt > maxInt
+      maxInt = userInt
+   userInt = Get next input
+Put sumInts / numInts to output
+Put " " to output
+Put maxInt to output
