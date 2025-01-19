@@ -1,0 +1,19 @@
+integer array(9) userValues
+
+integer currValue
+integer midIndex
+integer i
+
+currValue = Get next input
+
+while (currValue >= 0) and (i < 9)
+   userValues[i] = currValue
+   currValue = Get next input
+   i = i + 1
+   
+if currValue >= 0
+   Put "Too many inputs" to output
+   
+else
+   midIndex = i / 2
+   Put userValues[midIndex] to output
