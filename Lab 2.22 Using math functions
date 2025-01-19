@@ -1,3 +1,7 @@
+//Given three floating-point numbers x, y, and z, output xy, x(yz), the absolute value of x, and the square root of ((x * y)z).
+/Output all results with five digits after the decimal point, which can be achieved as follows:
+//Put result to output with 5 decimal places
+
 float numOne
 float numTwo
 float numThree
