@@ -1,0 +1,26 @@
+integer userInp
+integer temp
+integer tempTwo
+
+userInp = Get next input
+
+// Checking input is in range
+if (userInp  < 20) or (userInp > 98)
+   Put "Input must be 20-98" to output
+
+else
+   Put userInp to output
+   Put " " to output
+
+   while userInp % 11 != 0
+      temp = userInp / 10
+      tempTwo = temp * 11
+      
+      if tempTwo > userInp
+         tempTwo = tempTwo - 11
+      
+      
+      while userInp != tempTwo
+         userInp = userInp - 1
+         Put userInp to output
+         Put " " to output
