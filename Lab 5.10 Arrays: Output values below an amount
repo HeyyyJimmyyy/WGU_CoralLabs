@@ -1,3 +1,5 @@
+//Write a program that reads a list of 10 integers, and outputs those integers in reverse. For coding simplicity, follow each output integer by a space, including the last one. Then, output a newline.
+
 integer array(6) userInt
 integer i
 integer max
