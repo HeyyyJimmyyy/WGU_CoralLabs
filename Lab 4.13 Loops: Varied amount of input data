@@ -1,3 +1,5 @@
+//Write a program that takes any number of non-negative integers as input, and outputs the average (using integer division) and max.
+
 // Declare Vars
 integer userInt
 integer sumInts
