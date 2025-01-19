@@ -1,3 +1,5 @@
+//Write a program that takes a date as input and outputs the date's season. The input is an integer to represent the month and an integer to represent the day.
+
 ////NEEDS WORK
 
 integer inputMonth
