@@ -1,3 +1,5 @@
+//Write a program using integers userNum and x as input, and output userNum divided by x four times.
+
 integer userNum
 integer x
 integer runOne
