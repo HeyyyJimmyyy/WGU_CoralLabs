@@ -1,0 +1,13 @@
+integer array(6) userInt
+integer i
+integer max
+
+for i = 0; i < 6; i = i + 1
+   userInt[i] = Get next input
+   
+for i = 0; i < 5; i = i + 1
+   if userInt[i] <= userInt[5]
+      Put userInt[i] to output
+      Put " " to output
+      
+Put "\n" to output
