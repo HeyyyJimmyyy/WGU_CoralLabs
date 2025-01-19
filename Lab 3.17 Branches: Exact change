@@ -1,0 +1,56 @@
+integer change
+integer dollars
+integer quarters
+integer dimes
+integer nickels
+integer pennies
+
+change = Get next input
+
+if change == 0
+   Put "no change\n" to output
+
+if change / 100 != 0 
+   dollars = change / 100
+   Put dollars to output
+   if dollars > 1
+      Put " dollars\n" to output
+   else
+      Put " dollar\n" to output
+   change = change - (dollars * 100)
+   
+if change / 25 != 0
+   quarters = change / 25
+   Put quarters to output
+   if quarters > 1
+      Put " quarters\n" to output
+   else
+      Put " quarter\n" to output   
+   change = change - (quarters * 25)
+
+if change / 10  != 0
+   dimes = change / 10
+   Put dimes to output   
+   if dimes > 1
+      Put " dimes\n" to output
+   else
+      Put " dime\n" to output     
+   change = change - (dimes * 10)   
+   
+if change / 5 != 0
+   nickels = change / 5
+   Put nickels to output
+   if nickels > 1
+      Put " nickels\n" to output
+   else
+      Put " nickel\n" to output     
+   change = change - (nickels * 5)   
+   
+if change / 1 != 0
+   pennies = change / 1
+   Put pennies to output
+   if pennies > 1
+      Put " pennies\n" to output
+   else
+      Put " penny\n" to output  
+   change = change - pennies   
