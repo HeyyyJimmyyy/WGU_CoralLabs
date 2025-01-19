@@ -1,14 +1,14 @@
+//Given an initial key frequency, output that frequency and the next 4 higher key frequencies.
+//Output all frequencies with five digits after the decimal point, which can be achieved as follows:
+//Put frequency to output with 5 decimal places
+
 //Input
 float frq
 integer n
 float r
 
-
 frq = Get next input
 r = RaiseToPower(2, (1.0/12.0))
-
-//Put r to output
-
 Put frq to output with 5 decimal places
 Put " " to output
 
