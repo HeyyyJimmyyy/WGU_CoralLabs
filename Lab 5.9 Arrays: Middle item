@@ -1,3 +1,5 @@
+//Write a program that first reads a list of 5 integers from input. Then, read another value from the input, and output all integers less than or equal to that last value.
+
 integer array(9) userValues
 
 integer currValue
