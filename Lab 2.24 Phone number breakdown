@@ -1,3 +1,5 @@
+//Given an integer representing a 7-digit phone number, excluding the area code, output the prefix and line number, separated by a hyphen.
+
 integer phoneNum
 integer prefix
 integer lineNum
