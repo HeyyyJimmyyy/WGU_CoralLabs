@@ -1,0 +1,15 @@
+//Declare Variable
+integer inputYear
+inputYear = Get next input
+
+Put inputYear to output
+Put " is " to output
+
+if (inputYear % 4) == 0
+   if((inputYear% 100) == 0) and ((inputYear % 400) != 0)
+      Put "not " to output
+      
+else 
+   Put "not " to output
+   
+Put "a leap year." to output
