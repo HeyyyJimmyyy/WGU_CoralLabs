@@ -1,0 +1,20 @@
+integer varOne
+integer varTwo
+integer varThree
+integer biggest
+
+varOne = Get next input
+varTwo = Get next input
+varThree = Get next input
+
+if (varOne > varTwo) and (varOne > varThree)
+   Put varOne to output
+   
+if (varTwo > varOne) and (varTwo > varThree)
+   Put varTwo to output
+   
+if (varThree >  varOne) and (varThree > varTwo)
+   Put varThree to output
+   
+if (varOne == varTwo) and (varOne == varThree)
+   Put varOne to output
