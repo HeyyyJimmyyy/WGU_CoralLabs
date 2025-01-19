@@ -1,3 +1,5 @@
+//Given values for red, green, and blue, remove the gray part.
+
 integer red
 integer green
 integer blue
