@@ -1,3 +1,5 @@
+//Given a sorted list of integers, output the middle integer. A negative number indicates the end of the input 
+
 integer array(10) userInts
 integer i
 integer x
