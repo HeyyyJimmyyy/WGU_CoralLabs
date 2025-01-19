@@ -1,0 +1,20 @@
+integer inputMonth
+integer inputDay
+
+inputMonth = Get next input
+inputDay = Get next input
+
+if (inputMonth >= 3) and (inputMonth <=7) 
+   Put "Spring" to output
+   
+elseif (inputMonth >= 7) and (inputMonth <= 9)
+   Put "Summer" to output
+
+elseif (inputMonth >= 9) and (inputMonth <=12)
+   Put "Autumn" to output
+
+elseif (inputMonth == 12) or (inputMonth <= 3)
+   Put "Winter" to output
+   
+else 
+   Put "invalid" to output
