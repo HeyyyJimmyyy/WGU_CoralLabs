@@ -1,3 +1,5 @@
+//Write a program that takes in an integer in the range 20-98 as input. The output is a countdown starting from the integer, and stopping when both output digits are identical.
+
 integer userInp
 integer temp
 integer tempTwo
