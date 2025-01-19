@@ -1,3 +1,5 @@
+//Given the caffeine amount (in mg) as input, output the caffeine level after 6, 12, and 18 hours.
+
 float caffeineAmt
 float halfSixAmt
 float halfTweAmt
