@@ -1,3 +1,5 @@
+//Write a program that reads three integers as inputs, and outputs the largest of the three values.
+
 integer varOne
 integer varTwo
 integer varThree
