@@ -1,0 +1,37 @@
+integer highwayNumber
+integer primaryNumber
+integer auxilaryNumber
+integer extra
+integer extraTwo
+
+highwayNumber = Get next input
+
+
+if (highwayNumber >= 1) and (highwayNumber <=99) 
+   primaryNumber = highwayNumber
+   Put "The " to output
+   Put primaryNumber to output
+   Put " is primary," to output
+   
+   if primaryNumber % 2 == 0
+      Put " going east/west." to output
+     
+   else 
+      Put " going north/south." to output
+
+if (highwayNumber >=100) and (highwayNumber <=999) 
+   auxilaryNumber = highwayNumber
+   extra = (auxilaryNumber / 100)
+   extraTwo = auxilaryNumber - (extra * 100)
+   Put "The " to output
+   Put auxilaryNumber to output
+   Put " is auxiliary, serving the " to output
+   Put extraTwo to output
+   if auxilaryNumber % 2 == 0
+      Put ", going east/west." to output
+   else 
+      Put ", going north/south." to output
+
+elseif (highwayNumber <= 0) or (highwayNumber > 999)
+   Put highwayNumber to output
+   Put " is not a valid interstate highway number." to output
